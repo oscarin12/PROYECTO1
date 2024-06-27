@@ -61,8 +61,7 @@ document
     }
     //verificaciones  de correo
     function validarCorreo(correo) {
-      const emailRegex =
-        /^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)$/;
+      const emailRegex =/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       return emailRegex.test(correo);
     }
     //verificador  si esta selecionado un check
