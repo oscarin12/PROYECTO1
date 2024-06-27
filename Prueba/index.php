@@ -19,7 +19,7 @@
     </div>
     <div class="form-group">
         <label for="rut">RUT:</label>
-        <input type="text" id="rut" name="rut" pattern="[0-9]{1,2}\.[0-9]{3}\.[0-9]{3}-[0-9kK]{1}" title="Formato esperado: 12.345.678-9" required>
+        <input type="text" id="rut" name="rut" pattern="^[0-9]{7,8}-[0-9Kk]$" title="Formato esperado: 12345678-9" required>
     </div>
     <div class="form-group">
         <label for="email">Email:</label>
@@ -47,7 +47,7 @@
         </select>
     </div>
     <label>¿Cómo se enteró de Nosotros?</label>
-    <div class="radio-group">
+    <div class="radio-group" onsubmit="return validateForm()">
         <label><input type="Checkbox" name="tipo[]" value="Web"> Web</label>
         <label><input type="Checkbox" name="tipo[]" value="TV"> TV</label>
         <label><input type="Checkbox" name="tipo[]" value="Redes Sociales"> Redes Sociales</label>
@@ -57,6 +57,7 @@
     <div id="resultado" class="mensaje"></div>
 </form>
 <!--  JavaScript -->
+
 <script src="public/js/inserta.js"></script>
 <script src="public/js/regiones.js"></script>
 <script src="public/js/cadidatos.js"></script>
