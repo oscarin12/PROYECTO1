@@ -20,4 +20,4 @@ Instrucciones
 4) Correr proyecto http://localhost/prueba/ en su navegador preferido 
 
 
-cualquier duda o consulta sobre el proyecto llamar al numero 961809333 o enviar correo a oscar45medina@gmail.com
+ 

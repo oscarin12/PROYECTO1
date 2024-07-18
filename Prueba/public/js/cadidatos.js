@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Limpiar opciones existentes (si las hay)
       candidatoSelect.innerHTML =
-        '<option value="">Selecciona una región</option>';
+        '<option value="">Selecciona una candidato</option>';
       datos = data;
       // Llenar el combo de regiones
       console.log(data);
